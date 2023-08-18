@@ -1,0 +1,20 @@
+svg{
+    background-color: white;
+    /* border-radius: 100%; */
+}
+
+svg:hover{
+    background-color: blueviolet;
+}
+
+.container{
+    background-color: #0c0b1b;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+}
