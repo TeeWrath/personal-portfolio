@@ -1,14 +1,18 @@
 svg{
-    background-color: white;
-    /* border-radius: 100%; */
+    fill: white;
+    transition: 0.5s;
 }
 
 svg:hover{
-    background-color: blueviolet;
+    fill: blueviolet;
 }
 
 .container{
-    background-color: #0c0b1b;
+    /* background-color: red; */
+    /* display: flex; */
+    margin: 0rem auto 10rem;
+    justify-content: center;
+    align-items: center;
 }
 
 ul{
