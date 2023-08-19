@@ -1,3 +1,24 @@
-p{
+.container{
     color: white;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: right;
+    padding: 2rem;
+    margin-right: 4rem;
+}
+
+ul li{
+    font-size: 1.5rem;
+    transition: 0.5s;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+ul li:hover{
+    cursor: pointer;
+    color: blueviolet;
 }
