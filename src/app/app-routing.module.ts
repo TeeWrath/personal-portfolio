@@ -5,13 +5,15 @@ import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { MusicComponent } from './music/music.component';
+import { BlogsComponent } from './blogs/blogs.component';
 
 const routes: Routes = [
   {path : '', component : MainComponent},
   {path : 'about', component : AboutComponent},
   {path : 'experience', component : ExperienceComponent},
   {path : 'project', component : ProjectsComponent},
-  {path : 'music', component : MusicComponent}
+  {path : 'music', component : MusicComponent},
+  {path : 'blog', component : BlogsComponent}
 ];
 
 @NgModule({
