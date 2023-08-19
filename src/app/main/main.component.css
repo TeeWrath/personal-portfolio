@@ -2,9 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 22rem 10rem;
+    margin-top: -25rem;
     color: white;
-    /* background-color: red; */
 }
 
 img{
