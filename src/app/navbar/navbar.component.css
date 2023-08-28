@@ -1,14 +1,15 @@
 .container{
     color: white;
+    position: relative;
 }
 
 ul{
     list-style: none;
-    display: flex;
-    gap: 2rem;
-    justify-content: right;
+    display: block;
     padding: 2rem;
-    margin-right: 4rem;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
 }
 
 ul li{
@@ -21,4 +22,13 @@ ul li{
 ul li:hover{
     cursor: pointer;
     color: blueviolet;
+}
+
+svg{
+    fill: white;
+    transition: 0.5s;
+}
+
+svg:hover{
+    fill: blueviolet;
 }
